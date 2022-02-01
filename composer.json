@@ -1,0 +1,17 @@
+{
+    "name": "dema/mvc",
+    "description": "comprendre le model mvc",
+    "authors": [
+        {
+            "name": "jb dema",
+            "email": "jbaptiste.zahonli@veone.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\":"app/"
+        }
+    },
+    "require": {}
+}
