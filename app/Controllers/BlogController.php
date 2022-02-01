@@ -4,7 +4,6 @@ namespace App\Controllers;
 
 class BlogController extends Controller
 
-
 {
     public function index()
     {
@@ -19,5 +18,4 @@ class BlogController extends Controller
         return $this->view('blog.show',compact('id'));
     }
 }
-
 
